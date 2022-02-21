@@ -16,7 +16,7 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "xos4 Terminus:size=12" };
+static const char *fonts[]          = { "Terminus:size=12" };
 static const char dmenufont[]       = "Source Code Pro:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
@@ -47,6 +47,8 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	{ "Vncviewer",     NULL,       NULL,       0,            1,           -1 },
+	{ "Putty",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
