@@ -47,8 +47,10 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+	{ "processing-app-Base",     NULL,       NULL,       0,            1,           -1 },
 	{ "Vncviewer",     NULL,       NULL,       0,            1,           -1 },
 	{ "Putty",     NULL,       NULL,       0,            1,           -1 },
+	{ "Indicator-stickynotes",     NULL,       NULL,       1,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
